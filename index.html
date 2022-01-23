@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;600&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+  <title>Momentum APP</title>
+</head> 
+
+<body style>
+  <form class="hidden" id="login-form"> 
+    <input required maxlength="15" type = "text" placeholder="what is your name" />
+    <input type="submit" value="Log-In" />
+  </form>
+
+  <h1 id="greeting" class="hidden"></h1> 
+  <h2 id="clock">00:00:00</h2>
+  
+  <form id="todo-form">
+    <input type="text" placeholder="Write a To-Do list and Press Enter" required>
+  </form>
+
+  <ul id= "todo-list">
+  
+  
+  </ul>
+
+  <div id="quote">
+    Quote :
+    <span> </span>
+    <br>
+    Author : 
+    <span> </span>
+  </div>
+  <br>
+  <div id = "weather">
+    <span></span>
+    <span></span>
+  </div>
+  
+  <div id="ch_color">
+    <button> Today's Lucky Color? </button>
+  
+  </div>
+   
+
+  <script src="Login.js"></script>
+  <script src="clock.js"></script>
+  <script src="quotes.js"></script>
+  <script src="background.js"></script>
+  <script src="todo.js"></script>
+  <script src="weather.js"></script>
+  <script src="colorChange.js"></script>
+
+</body>
+</html>
